@@ -27,3 +27,29 @@ print(lista)
 # Inserção em posição não existente, >= count
 lista.insert(15, '5 kg arroz')
 print(lista)
+
+# Consultas de itens da lista
+primeiro = lista.peek_front()
+ultimo = lista.peek_back()
+item_pos6 = lista.peek(6)
+print(f"Primeiro: {primeiro}, Ultimo: {ultimo}, pos 6: {item_pos6}")
+
+# remoção da primeira lista
+primeiro = lista.remove_front()
+print (f'Removido, Inicial: {primeiro}')
+print(lista)
+
+# Remoção do ultimo item
+ultimo = lista.remove_back()
+print(f'Removido, Final: {ultimo}')
+print(lista)
+
+# Remoção em posição intermediária (3)
+item_pos3 = lista.remove(3)
+print (f'Removido, Pos-3: {item_pos3}')
+print(lista)
+
+# Remoção em posição intermediária(1)
+item_pos1 = lista.remove(1)
+print(f'Removido, Pos-1: {item_pos1}')
+print(lista)
