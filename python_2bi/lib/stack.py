@@ -70,7 +70,7 @@ class Stack:
 # # Cria uma nova pilha
 # pilha = Stack()
 
-# # print(pilha.__data)
+# print(pilha.__data)
 
 # # Insere valores na pilha
 # pilha.push(35)
